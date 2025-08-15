@@ -1,0 +1,177 @@
+body {
+    font-family: 'Courier New' , monospace;
+    line-height: 1.6;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #d9272e;
+    color: #f8f3f3;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#main-title {
+    font-style: italic;
+}
+
+nav {
+    background: #f8f3f3;
+    color: black;
+    padding: 0.5rem 0;
+    text-align: center;
+    border: 1px black;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: black;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color:crimson;
+}
+
+nav span {
+    color: #ccc;
+    font-weight: bold;
+}
+
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+aside {
+    width: 30%;
+    float: left;
+    position: relative;
+}
+
+aside img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #022d73;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: -15px;
+    background-color: #022d73;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+
+section {
+    width: 65%;
+    float: right;
+    background:#022d73;
+    color: whitesmoke;
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.cities-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #d9272e;
+    color: #f8f3f3;
+}
+.cities-table th {
+    border: 1px solid white;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cities-table td {
+    border: 1px solid white;
+    padding: 12px;
+    text-align: center;
+}
+
+.cities-table thead {
+    background-color: #d9272e;
+    color: #f8f3f3;
+}
+
+.cities-table a {
+    color: #f8f3f3;
+    text-decoration: underline;
+}
+
+.cities-table a:hover {
+    color: cyan;
+}
+
+#contact-form {
+    background:#022d73;
+    color: #f8f3f3;
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section li {
+    margin-bottom: 10px;
+}
+
+section ol {
+    margin-top: 25px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.sources {
+    margin-top: 30px;
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: center;
+    color: #a0a0a0
+}
+.sources a {
+    color: #a0a0a0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background: #d9272e;
+    color: #f8f3f3;
+    clear: both;
+}
