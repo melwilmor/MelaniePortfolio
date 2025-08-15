@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <title>Career Goals</title>
+   <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Career Goals</h1>
+        <nav>
+            <a href="resume.html">Resume</a>
+            <a href="cover-letter.html">Cover Letter</a>
+            <a href="career-goals.html">Career Goals</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="media-showcase">
+            <h2>Media Introduction</h2>
+            <img src="images/profile-picture.jpg" alt="A photo of Melanie Morden" width="150">
+            <h3>Audio Introduction</h3>
+            <audio controls>
+                <source src="audio/intro-audio.mp3" type="audio/mpeg">
+            </audio>
+
+            <h3>Video Messaage</h3>
+            <video controls width="320">
+                <source src="video/career-goals-video.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section id="contact-form">
+            <h2>Contact Me</h2>
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                <label for="firstName">First Name: </label><br>
+                <input type="text" id="firstName" name="firstName"><br>
+
+                <label for="lastName">Last Name: </label><br>
+                <input type="text" id="lastName" name="lastName"><br>
+
+                <label for="companyName">Company Name: </label><br>
+                <input type="text" id="companyName" name="companyName"><br>
+
+                <label for="email">E-Mail: </label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="phone">Phone: </label><br>
+                <input type="tel" id="phone" name="phone"><br>
+
+                <label>Best Contact Time:</label><br>
+                <input type="radio" id="am" name="contactTime" value="am">
+                <label for="am">A.M.</label><br>
+                <input type="radio" id="pm" name="contactTime" value="pm">
+                <label for="pm">P.M.</label><br>
+                <input type="radio" id="anytime" name="contactTime" value="anytime">
+                <label for="anytime">Anytime</label><br><br>
+
+                <label for="contactMethod">Preferred Contact Method: </label><br>
+                <select id="contactMethod" name="contactMethod">
+                    <option value="phone">Phone</option>
+                    <option value="email">E-Mail</option>
+                    <option value="text">Text</option>
+                </select><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" row="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Melanie Morden</p>
+        <div id="current-date"></div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
